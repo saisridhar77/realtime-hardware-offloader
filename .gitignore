@@ -1,0 +1,18 @@
+# Linux Build Artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+.tmp_versions/
+.rt_driver*
+rt_daemon
+
+# STM32/Eclipse Build Artifacts
+embedded-stm32/Debug/
+embedded-stm32/Release/
+*.elf
+*.bin
+*.map
+*.su
